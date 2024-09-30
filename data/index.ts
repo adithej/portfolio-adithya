@@ -72,6 +72,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Image Wordy",
+      des: "AI Chatbot for image and text analysis",
+      img: "/imagewordy.png",
+      iconLists: ["/re.svg", "express.svg", "/tail.svg", "/ts.svg", "/vt.svg"],
+      link: "https://github.com/adithej/image-wordy",
+    },
+    {
+      id: 2,
       title: "Component UI",
       des: "Complete UI library build using typescript , SCSS and documented by storybook",
       img: "/component-ui.png",
@@ -87,20 +95,12 @@ export const navItems = [
       link: "https://github.com/Adithej/nike",
     },
     {
-      id: 3,
+      id: 4,
       title: "A facebook clone app",
       des: "A modern social media frontend developed using react.js",
       img: "/fb-cl.png",
       iconLists: ["/re.svg", "/html.svg", "/css.svg",],
       link: "https://github.com/Adithej/fb-clone-app?tab=readme-ov-file",
-    },
-    {
-      id: 4,
-      title: "Book Craft",
-      des: "Admin library created for online book using react and node.js",
-      img: "/bookC.png",
-      iconLists: ["/re.svg", "/nd.svg", "/css.svg", "/app.svg",],
-      link: "https://github.com/Adithej/book-craft?tab=readme-ov-file",
     },
   ];
   
